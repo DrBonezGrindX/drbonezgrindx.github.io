@@ -1,45 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GRINDX</title>
-  <style>
-    body {
-      background-color: #0f1115;
-      color: #ccc;
-      font-family: Arial, sans-serif;
-      text-align: center;
-      margin: 0;
-      padding: 0 1rem;
-    }
-    img {
-      max-width: 100%;
-      height: auto;
-      margin-top: 2rem;
-    }
-    h1 {
-      color: #6cb2ff;
-      margin-top: 1rem;
-    }
-    p {
-      font-size: 1.2rem;
-      margin: 0.5rem 0;
-    }
-    footer {
-      margin-top: 2rem;
-      font-size: 0.9rem;
-      color: #777;
-    }
-  </style>
-</head>
-<body>
-  <img src="grindx-logo.jpg" alt="GRINDX Logo" />
-  <h1>GRINDX</h1>
-  <p>No shortcuts. Just GRINDX.<br />Token of the Relentless.</p>
-  <p>Launched on XRPL. Built by DrBonez. Live on XPMarket.</p>
-  <footer>
-    © 2025 GRINDX | BuiltByBonez
-  </footer>
-</body>
-</html>
+body {
+  background: #0f1115 url('https://www.transparenttextures.com/patterns/dark-mosaic.png');
+  color: #ccc;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: url('https://i.ibb.co/4ZzdxK4/smoke-blue.gif') center center / cover no-repeat;
+  opacity: 0.25;
+  z-index: -1;
+  animation: fadeSmoke 10s infinite alternate;
+}
+
+@keyframes fadeSmoke {
+  0% { opacity: 0.15; }
+  100% { opacity: 0.3; }
+}
