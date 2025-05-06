@@ -11,43 +11,21 @@
       font-family: Arial, sans-serif;
       text-align: center;
       margin: 0;
-      padding: 0;
-      overflow-x: hidden;
-      position: relative;
+      padding: 0 1rem;
     }
-
-    body::before {
-      content: "";
-      position: fixed;
-      top: 0; left: 0;
-      width: 100%; height: 100%;
-      background: url('https://media.giphy.com/media/3o7TKxohYtKiXTZQ5C/giphy.gif') center center / cover no-repeat;
-      opacity: 0.15;
-      z-index: -1;
-      animation: fadeSmoke 10s infinite alternate;
-    }
-
-    @keyframes fadeSmoke {
-      0% { opacity: 0.15; }
-      100% { opacity: 0.3; }
-    }
-
     img {
       max-width: 100%;
       height: auto;
       margin-top: 2rem;
     }
-
     h1 {
       color: #6cb2ff;
       margin-top: 1rem;
     }
-
     p {
       font-size: 1.2rem;
       margin: 0.5rem 0;
     }
-
     footer {
       margin-top: 2rem;
       font-size: 0.9rem;
