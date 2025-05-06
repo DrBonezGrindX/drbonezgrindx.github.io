@@ -11,21 +11,43 @@
       font-family: Arial, sans-serif;
       text-align: center;
       margin: 0;
-      padding: 0 1rem;
+      padding: 0;
+      overflow-x: hidden;
+      position: relative;
     }
+
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: url('https://i.ibb.co/SyV9Lqx/smoke-loop.gif') center center / cover no-repeat;
+      opacity: 0.2;
+      z-index: -1;
+      animation: fadeSmoke 10s ease-in-out infinite alternate;
+    }
+
+    @keyframes fadeSmoke {
+      0% { opacity: 0.15; }
+      100% { opacity: 0.35; }
+    }
+
     img {
       max-width: 100%;
       height: auto;
       margin-top: 2rem;
     }
+
     h1 {
       color: #6cb2ff;
       margin-top: 1rem;
     }
+
     p {
       font-size: 1.2rem;
       margin: 0.5rem 0;
     }
+
     footer {
       margin-top: 2rem;
       font-size: 0.9rem;
