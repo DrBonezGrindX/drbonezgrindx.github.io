@@ -3,7 +3,16 @@ code = "GRINDX"
 issuer = "rSpC9kRUiCe8dGurs7CQbpw4rPT1VBGTNjR"
 display_decimals = 6
 description = "GRINDX is a meme token created by DrBonez to fuel hustle culture and community rewards."
+url = "[[CURRENCIES]]
+code = "GRINDX"
+issuer = "rSpC9kRUiCe8dGurs7CQbpw4rPT1VBGTNjR"
+display_decimals = 6
+description = "GRINDX is a meme token created by DrBonez to fuel hustle culture and community rewards."
 url = "https://drbonezgrindx.github.io"
+icon = "https://drbonezgrindx.github.io/grindx-logo-new.png"
+
+[[ACCOUNTS]]
+address = "rHxvLo9yEu89xAdq2booG7ZpqQKiE5hwqo"
 icon = "https://drbonezgrindx.github.io/grindx-logo-new.png"
 
 [[ACCOUNTS]]
