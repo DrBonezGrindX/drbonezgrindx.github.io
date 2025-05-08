@@ -1,10 +1,9 @@
-[METADATA]
 [[ACCOUNTS]]
 address = "rHxyLo9ygu99xAdq2booG7ZpqQKiE5hwqo"
 
 [[CURRENCIES]]
 code = "GRINDX"
-issuer = "rSpC9SkRUiCe8Gdurs7CQbpw4PT1vBGTNjr"
+issuer = "rSpC9SkRUiCe8Gdurs7CQbpw4PT1vBGTNjR"
 display_decimals = 6
 description = "GRINDX is a meme token created by DrBonez to fuel hustle culture and community rewards."
 url = "https://drbonezgrindx.github.io"
