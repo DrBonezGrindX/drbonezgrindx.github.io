@@ -1,10 +1,14 @@
 [[ACCOUNTS]]
-address = "rHxyLo9yEu99xAdq2booG7ZpqQKiE5hwqo"
+address = "rHxYLo9yEu99xAdq2booG7ZpqQKiE5hwqo"
 
 [[CURRENCIES]]
 code = "GRINDX"
-issuer = "rSpC9SkRUiCe8Gdurs7CQbpw4PT1vBGTNjr"
+issuer = "rSpC9SKRuiCe8Gdurs7CQbpw4PT1vBGTNjr"
 display_decimals = 6
 description = "GRINDX is a meme token created by DrBonez to fuel the grind."
 url = "https://drbonezgrindx.github.io"
 icon = "https://drbonezgrindx.github.io/grindx-logo-new.png"
+
+[[CURRENCIES.resources]]
+url = "https://drbonezgrindx.github.io/GRINDX_Onboarding_xGuide.pdf"
+description = "GRINDX Onboarding Guide"
